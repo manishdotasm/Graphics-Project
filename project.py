@@ -66,7 +66,7 @@ def main():
         print("GLFW could not be initialized.")
         return
 
-    window_width, window_height = 800, 600
+    window_width, window_height = 1920, 1080
     window = glfw.create_window(window_width, window_height, "Mandelbrot and Julia Sets", None, None)
     if not window:
         glfw.terminate()

@@ -74,7 +74,7 @@ int main() {
         return -1;
     }
 
-    int window_width = 1920, window_height = 1080;
+    int window_width = 1024, window_height = 786;
     GLFWwindow* window = glfwCreateWindow(window_width, window_height, "Mandelbrot and Julia Sets", NULL, NULL);
     if (!window) {
         glfwTerminate();
